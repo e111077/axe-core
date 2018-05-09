@@ -1,0 +1,11 @@
+{
+  "id": "contrast-field-border-on-background",
+  "evaluate": "contrast-field-border-on-background.js",
+  "metadata": {
+    "impact": "serious",
+    "messages": {
+      "pass": "",
+      "fail": ""
+    }
+  }
+}

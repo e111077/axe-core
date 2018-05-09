@@ -1,0 +1,18 @@
+{
+	"id": "form-field-boundary-contrast",
+	"selector": "input:not([type=hidden]):not([type=checkbox]):not([type=radio]):not([type=button]):not([type=image]):not([type=submit]):not([type=reset]):not([disabled]), select:not([disabled]), textarea:not([disabled])",
+	"tags": [
+		"wcag21aa",
+		"wcag1411",
+		"cat.color"
+	],
+	"metadata": {
+		"description": "Ensures sufficient color contrast of form field boundaries",
+		"help": "Form field boundaries have a contrast ratio of 3:1"
+	},
+	"all": [],
+	"any": [
+		"contrast-field-border-on-background"
+	],
+	"none": []
+}
